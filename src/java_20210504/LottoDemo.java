@@ -25,7 +25,7 @@ public class LottoDemo {
 					}
 				}
 				
-				//오름 차순정렬
+				/*오름 차순정렬
 				for (int i = 0; i < lotto.length; i++) {
 					for (int j = 0; j < lotto.length - (i + 1); j++) {
 						if (lotto[j] > lotto[j + 1]) {
@@ -36,6 +36,20 @@ public class LottoDemo {
 						
 					}
 				}
+				
+				
+				내림 차순정렬
+				for (int i = 0; i < lotto.length; i++) {
+					for (int j = 0; j < lotto.length - (i + 1); j++) {
+						if (lotto[j] < lotto[j + 1]) {
+							int temp = lotto[j];
+							lotto[j] = lotto[j + 1];
+							lotto[j + 1] = temp;
+						}
+						
+					}
+				}
+				*/
 				
 				for(int i=0;i<lotto.length;i++) {
 					System.out.print(lotto[i] + "\t");
