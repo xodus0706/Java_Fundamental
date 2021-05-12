@@ -1,10 +1,10 @@
 package java_20210512;
 
+public class StringNotChange{
 	public static void m(int a, int [] b, String s) {
 		a = 20;
 		b[3] = 40000;
 		s += "123";
-
 	}
 
 	public static void main(String[] args) {
