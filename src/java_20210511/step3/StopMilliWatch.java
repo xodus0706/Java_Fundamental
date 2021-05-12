@@ -11,7 +11,7 @@ public class StopMilliWatch {
 		endTime = System.currentTimeMillis();
 	}
 	public double getElapsedTime() {
-		return (double)(endTime - startTime)/1000000000;
+		return (double)(endTime - startTime)/1000;
 	}
 	
 

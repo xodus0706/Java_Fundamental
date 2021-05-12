@@ -1,13 +1,13 @@
-package java_20210511.step5;
+package java_20210511.step6;
 
-public class StopMicroWatch extends StopWatch {
+public class StopNanoWatch extends StopWatch {
 	public void start() {
 		startTime = System.nanoTime();
 	}
 	public void stop() {
 		endTime = System.nanoTime();
 	}
-
+	
 	public double getElapsedTime() {
 		return (double)(endTime - startTime)/1000000000;
 	}
@@ -18,6 +18,6 @@ public class StopMicroWatch extends StopWatch {
 		}
 		stop();
 		double elapsedTime = getElapsedTime();
-		System.out.printf("경과시간 : %,.6f", elapsedTime);
+		System.out.printf("경과시간 : %,.9f", elapsedTime);
 	}
 }

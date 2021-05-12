@@ -6,7 +6,7 @@ public class Parent {
 	int age;
 	//alt + shift + s -> c => 디폴트 생성자
 	public Parent() {
-		super(); //매개변수없는 디폴트 생성자의 super는 object를 의미한다.
+			super(); //매개변수없는 디폴트 생성자의 super는 object를 의미한다.
 				 //밑에 아무것도 없으므로 기본값 null로 들어간다.
 	}
 	

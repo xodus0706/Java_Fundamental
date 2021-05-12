@@ -1,5 +1,6 @@
 package java_20210511.step1;
-
+//1. 요구사항: 밀리세컨드로 경과 시간을 만들어 주세요.
+//2. 요구사항: 나노 세컨드로 경과 시간을 만들어 주세요.
 public class FootStopWatch {
 	long startTime;
 	long endTime;

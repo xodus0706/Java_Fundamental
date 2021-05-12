@@ -1,4 +1,4 @@
-package java_20210511.step5;
+package java_20210511.step6;
 
 public abstract class StopWatch {
 	long startTime;

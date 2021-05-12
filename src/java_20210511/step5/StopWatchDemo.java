@@ -1,7 +1,7 @@
 package java_20210511.step5;
 
 public class StopWatchDemo {
-	public static void ren(StopWatch s) {
+	public static void run(StopWatch s) {
 		s.execute();
 	}
 

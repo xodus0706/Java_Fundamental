@@ -1,7 +1,7 @@
 package java_20210511.step3;
 public class StopWatchDemo {
 	public static void main(String[] args) {
-		StopMilliWatch s = new StopMilliWatch();
+		StopNanoWatch s = new StopNanoWatch();
 		s.start();
 		for(long i = 0; i < 30_000_000_000l; i++) {
 		}

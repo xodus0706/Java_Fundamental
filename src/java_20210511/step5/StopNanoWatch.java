@@ -1,17 +1,14 @@
 package java_20210511.step5;
 
-public class StopNanoWatch {
-	long startTime; 
-	long endTime;
-	
-	public void startNano() {
+public class StopNanoWatch extends StopWatch {
+	public void start() {
 		startTime = System.nanoTime();
 	}
-	public void stopNano() {
+	public void stop() {
 		endTime = System.nanoTime();
 	}
 	
-	public double getElapsedNanoTime() {
+	public double getElapsedTime() {
 		return (double)(endTime - startTime)/1000000000;
 	}
 	public void execute() {
@@ -19,5 +16,8 @@ public class StopNanoWatch {
 		for(long i = 0; i < 30_000_000_000l; i++) {
 			
 		}
+		stop();
+		double elapsedTime = getElapsedTime();
+		System.out.printf("경과시간 : %,.9f", elapsedTime);
 	}
 }

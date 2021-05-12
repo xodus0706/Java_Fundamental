@@ -1,4 +1,4 @@
-package java_20210511.step5;
+package java_20210511.step6;
 
 public class StopMicroWatch extends StopWatch {
 	public void start() {

@@ -11,17 +11,17 @@ public class StopWatch {
 		endTime = System.currentTimeMillis();
 	}
 	public double getElapsedTime() {
-		return (double)(endTime - startTime)/1000000000;
+		return (double)(endTime - startTime)/1000;
 	}
 	
 	long startNanoTime; 
 	long endNanoTime;
 	
 	public void startNano() {
-		startNanoTime = System.currentTimeMillis();
+		startNanoTime = System.nanoTime();
 	}
 	public void stopNano() {
-		endNanoTime = System.currentTimeMillis();
+		endNanoTime = System.nanoTime();
 	}
 	
 	public double getElapsedNanoTime() {
