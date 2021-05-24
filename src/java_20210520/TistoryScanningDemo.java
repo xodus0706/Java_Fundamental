@@ -11,12 +11,12 @@ import java.net.URL;
 public class TistoryScanningDemo {
 	public static void main(String[] args) 
 			throws IOException {
-		URL url = new URL("https://jamesdreaming.tistory.com/99");
+		URL url = new URL("https://m.blog.naver.com/PostView.nhn?blogId=telopere&logNo=120053568425&proxyReferer=&proxyReferer=https:%2F%2Fblog.naver.com%2Ftelopere%2F120053568425");
 		InputStream in = url.openStream(); //외부네트워크가 연결
 		InputStreamReader isr = new InputStreamReader(in, "utf-8");
 		BufferedReader br = new BufferedReader(isr);
 		
-		FileWriter fw = new FileWriter("C:\\Users\\user\\tistory.html");
+		FileWriter fw = new FileWriter("C:\\Users\\user\\china.html");
 		BufferedWriter bw = new BufferedWriter (fw);
 		
 		String readLine = null;
